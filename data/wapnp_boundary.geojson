@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Western Area Peninsula National Park",
+        "country": "Sierra Leone",
+        "iucn_category": "II",
+        "source": "Approximate boundary for demonstration purposes. For official boundary, download from Protected Planet (https://www.protectedplanet.net/555547936) using WDPA ID 555547936.",
+        "note": "This is a simplified polygon derived from publicly available geographic information. It is intended for code demonstration only and should be replaced with the official WDPA shapefile for any published analysis."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-13.245, 8.470],
+            [-13.195, 8.465],
+            [-13.145, 8.450],
+            [-13.100, 8.430],
+            [-13.085, 8.390],
+            [-13.090, 8.350],
+            [-13.105, 8.310],
+            [-13.120, 8.270],
+            [-13.145, 8.235],
+            [-13.185, 8.195],
+            [-13.220, 8.175],
+            [-13.265, 8.170],
+            [-13.305, 8.185],
+            [-13.340, 8.215],
+            [-13.360, 8.255],
+            [-13.365, 8.300],
+            [-13.355, 8.350],
+            [-13.340, 8.400],
+            [-13.310, 8.440],
+            [-13.270, 8.465],
+            [-13.245, 8.470]
+          ]
+        ]
+      }
+    }
+  ]
+}
