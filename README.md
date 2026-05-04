@@ -11,7 +11,7 @@ dataset (GFC v1.11, 2023).
 
 The Jupyter notebook (`analysis.ipynb`) performs the following steps:
 
-1. Loads the park boundary from `data/wapnp_boundary.geojson`.
+1. Loads the park boundary from `data/wapnp_boundary.shp`.
 2. Extracts the relevant spatial subset of the Hansen treecover2000 and
    lossyear rasters from Google Cloud Storage using windowed rasterio reads
    (no large file downloads required).
@@ -69,15 +69,11 @@ Open `analysis.ipynb` and run all cells.
 
 | File | Description | Source |
 |------|-------------|--------|
-| `data/wapnp_boundary.geojson` | Approximate park boundary polygon | Derived from public geographic information — see note below |
+| `data/wapnp_boundary.geojson` | Approximate park boundary polygon | Derived from [Protected Planet](https://www.protectedplanet.net/555547936) |
 | Hansen treecover2000 | Tree canopy cover (%) for year 2000 | Downloaded automatically by the notebook from Google Cloud Storage |
 | Hansen lossyear | Year of first forest loss per pixel (2001–2023) | Downloaded automatically by the notebook from Google Cloud Storage |
 
-> **Important:** The park boundary included in this repository is an
-> approximate polygon intended for code demonstration. For a published
-> analysis, download the official boundary (WDPA ID 555547936) from
-> [Protected Planet](https://www.protectedplanet.net/555547936) and replace
-> `data/wapnp_boundary.geojson` with the official shapefile.
+
 
 ---
 
