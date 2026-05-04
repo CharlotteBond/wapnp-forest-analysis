@@ -1,7 +1,7 @@
 # Forest Cover Analysis: Western Area Peninsula National Park
 
 Analysis of forest cover and forest loss (2001–2023) within the
-**Western Area Peninsula National Park (WAPNP)**, Sierra Leone, using the
+Western Area Peninsula National Park (WAPNP), Sierra Leone, using the
 [Hansen Global Forest Change](https://www.science.org/doi/10.1126/science.1244693)
 dataset (GFC v1.11, 2023).
 
